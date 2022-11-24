@@ -49,8 +49,7 @@ router.get("/:id",async (req, res)=>{
             name:user.username,
             Followers:user.followers,
             Following:user.following
-        
-     } });
+         } });
     
     }catch(err){
         res.status(500).json(err);
